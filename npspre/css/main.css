@@ -1,0 +1,35 @@
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+select {
+ background-color: rgba(255,255,255,0.2);
+}
+
+.form-control {
+width:auto;
+display:inline-block;
+margin-right: 5px;
+}
+
+#scrollToTop{
+	height:80px;
+	padding:10px; 
+	text-align:center; 
+	text-decoration: none;
+	position:fixed;
+	top:600px;
+	right:40px;
+	display:none;
+}
+#scrollToTop:hover{
+	text-decoration:none;
+}
+
+body{
+	overflow-x:hidden;
+}
